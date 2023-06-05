@@ -9,5 +9,8 @@ export default defineConfig({
         plugins: ['@emotion/babel-plugin']
       }
     })
-  ]
+  ],
+  server: {
+    host: true
+  }
 })
